@@ -37,3 +37,7 @@ Then on your host operating system make sure to point the virtualhost url to the
 Because I've used stdout for logs you can see apache errors by running a command like this.
 
     sudo docker logs -f sugarcrm75
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shano/docker-sugarcrm-75/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
