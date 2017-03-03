@@ -34,6 +34,7 @@ RUN chmod a+x /start.sh
 # Turn on some crucial apache mods
 RUN a2enmod rewrite headers filter
 
+RUN a2dissite 000-default
 RUN a2ensite sugarcrm
 
 RUN apache2ctl restart
