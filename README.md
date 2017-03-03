@@ -26,18 +26,9 @@ Edit files/php.ini and change any settings you might want to customise with PHP 
 
 In config.php I just set the mysql host to dockerhost
 
-### Hosts entry
-
-Then on your host operating system make sure to point the virtualhost url to the box. For me, in my /etc/hosts I have this entry.
-
-    127.0.0.1 sugar.dev
-
 ### Debugging
 
 Because I've used stdout for logs you can see apache errors by running a command like this.
 
     sudo docker logs -f sugarcrm75
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shano/docker-sugarcrm-75/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
